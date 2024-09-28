@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">YouTube Clone</div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </div>
+    </header>
+    <nav class="nav-menu">
+        <ul>
+            <li id="home-button">Home</li>
+            <li id="trending-button">Trending</li>
+            <li id="subscriptions-button">Subscriptions</li>
+            <li id="library-button">Library</li>
+        </ul>
+    </nav>
+    <div class="filter-container">
+        <select class="category-filter">
+            <option value="">All Categories</option>
+        </select>
+        <select class="sort-options">
+            <option value="date">Sort by Upload Date</option>
+            <option value="viewCount">Sort by View Count</option>
+        </select>
+    </div>
+    <div class="video-grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
